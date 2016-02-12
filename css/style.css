@@ -2,20 +2,54 @@ html,body{
     margin:0; 
     padding:0;
     box-sizing:border-box;
-    font-size: 62.50%;
-    width: 100%; 
-    height: 100%;
-    
+    font-size: 100%;
+    width:100%; 
+    height:100%; }
+
+main{ padding-: 0;}
+
 body{
     background-color:blue;
 }
 
 header{
-    width: 90%;
+    width: 75%;
+    height: 100%;
+    margin: 10%;
+    padding: 0%;
+    text-align: center;
+    line-height: 95px;
+    background-color: red;
+}
+
+Section{
+    width: 33.3%;
+    height: 100%;
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    line-height: 10;
+    background-color: white;
+    border-bottom-style: solid;
+    border-spacing: 10%; 
+    float: left
+        
+}  
+Button{ 
+        padding: 10;
+        width:50%
+        height: 5em;
+}
+
+Footer{ 
+    width: 100%;
     height: 3em;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     text-align: center;
     line-height: 3em;
     background-color: red;
+    border-bottom-style: solid
+    
 }
